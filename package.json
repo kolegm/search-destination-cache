@@ -1,0 +1,49 @@
+{
+  "name": "search-destination-cache",
+  "version": "0.0.1",
+  "description": "Search destinations by name, address, point of interest or coordinates. Using redis db.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "search",
+    "destination",
+    "geocoder",
+    "reverse",
+    "place",
+    "address",
+    "name",
+    "coordinate",
+    "google",
+    "osm",
+    "open street map",
+    "yahoo",
+    "yandex",
+    "geoname",
+    "geonames",
+    "poi",
+    "point of interest",
+    "async",
+    "queue",
+    "cache",
+    "caching",
+    "redis"
+  ],
+  "dependencies": {
+    "hiredis": "^0.1.17",
+    "nconf": "^0.6.9",
+    "redis": "^0.10.3",
+    "search-destination-async": "^0.0.5",
+    "underscore": "^1.6.0"
+  },
+  "author": {
+    "name": "Oleg Kravchuk",
+    "email": "kolegm.real@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kolegm/search-destination-cache"
+  },
+  "license": "ISC"
+}
