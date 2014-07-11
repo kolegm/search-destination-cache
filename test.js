@@ -1,10 +1,10 @@
 var util = require('util');
 
-var Handler = require('./lib/redis');
+process.env.REDIS_DEBUG = 1;
 
-var handler = new Handler();
+var handler = require('./lib/redis')({});
 
-handler.hmsetex('key', {'1':'1','2':'2'}, 60, function (error, data) {
+handler.hmset('key', {'1':'1','2':'2'}, function (error, data) {
   if (error) console.log('hmset e: ' + error);
   else console.log('hmset data: ' + data);
 });
