@@ -1,17 +1,9 @@
-var util = require('util');
+var searcher = require('./');
 
-process.env.REDIS_DEBUG = 1;
+var callback = function (error, data) {
+  if (error) console.log(error);
+  else console.log(data);
+};
 
-var handler = require('./lib/redis')({});
-
-handler.hmset('key', {'1':'1','2':'2'}, function (error, data) {
-  if (error) console.log('hmset e: ' + error);
-  else console.log('hmset data: ' + data);
-});
-
-handler.hgetall('key', function (error, data) {
-  if (error) console.log('hgetall e: ' + error);
-  else console.log('hgetall data: ' + util.inspect(data));
-});
-
-handler.quit();
+searcher.searchByAddress('kyiv, petra pancha', callback);
+searcher.searchByCoordinates('1.234', '2.345', callback);
