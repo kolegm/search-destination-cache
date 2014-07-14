@@ -1,5 +1,5 @@
 {
-  "key": "hdl",
+  "namespace": "hdl",
   "state": {
     "field": "state",
     "type": "enum",
