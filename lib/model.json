@@ -1,28 +1,4 @@
 {
-  "handler": {
-    "key": "hdl",
-    "state": {
-      "field": "state",
-      "type": "enum",
-      "values": ["begin","end","progress","error"]
-    },
-    "counter": {
-      "field": "counter",
-      "type": "integer"
-    },
-    "time_begin": {
-      "field": "time_begin",
-      "type": "time"
-    },
-    "time_end": {
-      "field": "time_end",
-      "type": "time"
-    },
-    "time_error": {
-      "field": "time_error",
-      "type": "time"
-    }
-  },
   "request": {
     "key": "rq",
     "data": {
