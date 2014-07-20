@@ -1,0 +1,11 @@
+{
+  "key": "rq",
+  "data": {
+    "field": "data",
+    "type": "string"
+  }
+  "time_update: {
+    "field": "time_begin",
+    "type": "time"
+  },
+}
