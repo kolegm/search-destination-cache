@@ -6,4 +6,5 @@ var callback = function (error, data) {
 };
 
 searcher.searchByAddress('kyiv, petra pancha', callback);
-//searcher.searchByCoordinates('1.234', '2.345', callback);
+searcher.searchByCoordinates('1.234', '2.345', callback);
+
