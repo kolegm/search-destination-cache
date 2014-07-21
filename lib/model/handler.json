@@ -5,9 +5,9 @@
     "type": "enum",
     "values": ["begin","end","progress","error"]
   },
-  "counter": {
-    "field": "counter",
-    "type": "integer"
+  "request": {
+    "field": "request",
+    "type": "string"
   },
   "time_begin": {
     "field": "time_begin",
@@ -20,5 +20,9 @@
   "time_error": {
     "field": "time_error",
     "type": "time"
+  },
+  "error_message": {
+    "field": "error_message",
+    "type": "string"
   }
 }

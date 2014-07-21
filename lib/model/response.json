@@ -2,10 +2,10 @@
   "key": "rq",
   "data": {
     "field": "data",
-    "type": "string"
+    "type": "list"
   }
   "time_update: {
-    "field": "time_begin",
+    "field": "time_update",
     "type": "time"
   },
 }
