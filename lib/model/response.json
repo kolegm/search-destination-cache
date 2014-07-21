@@ -3,9 +3,9 @@
   "data": {
     "field": "data",
     "type": "list"
-  }
-  "time_update: {
+  },
+  "time_update": {
     "field": "time_update",
     "type": "time"
-  },
+  }
 }
