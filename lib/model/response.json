@@ -1,11 +1,7 @@
 {
-  "key": "rq",
+  "namespace": "RQ",
   "data": {
     "field": "data",
     "type": "list"
-  },
-  "time_update": {
-    "field": "time_update",
-    "type": "time"
   }
 }

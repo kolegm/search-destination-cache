@@ -1,9 +1,9 @@
 {
-  "namespace": "hdl",
+  "namespace": "HDL",
   "state": {
     "field": "state",
     "type": "enum",
-    "values": ["begin","end","progress","error"]
+    "values": ["begin","end","error"]
   },
   "request": {
     "field": "request",
