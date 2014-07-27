@@ -5,8 +5,8 @@ var searcher = require('./');
 var callback = function (error, data) {
   if (error) console.log(error.message);
   else {
-    //console.log(new Date());
-    console.log(data);
+    console.log(new Date());
+    //console.log(data);
   }
 };
 
