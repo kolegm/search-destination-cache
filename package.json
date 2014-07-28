@@ -1,7 +1,7 @@
 {
   "name": "search-destination-cache",
   "version": "0.0.1",
-  "description": "Search destinations by name, address, point of interest or coordinates. Using redis db.",
+  "description": "Search destinations by name, address, point of interest or coordinates. Using Redis DB for caching.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,7 +28,11 @@
     "queue",
     "cache",
     "caching",
-    "redis"
+    "redis",
+    "subscribe",
+    "publish",
+    "pubsub",
+    "message",
   ],
   "dependencies": {
     "hiredis": "^0.1.17",
