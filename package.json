@@ -32,7 +32,7 @@
     "subscribe",
     "publish",
     "pubsub",
-    "message",
+    "message"
   ],
   "dependencies": {
     "hiredis": "^0.1.17",
