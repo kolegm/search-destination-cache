@@ -2,10 +2,10 @@ var searcher = require('./');
 
 var callback = function (error, data) {
   if (error) console.log(error.message);
-  else console.log(data);
+  //else console.log(data);
 };
 
-searcher.searchByAddress('kyiv, Khreshchatyk', callback);
+searcher.searchByAddress('phuket', callback);
 
 //searcher.searchByCoordinates('21.234', '13.345', callback);
 //searcher.searchByCoordinates('22.234', '13.345', callback);
