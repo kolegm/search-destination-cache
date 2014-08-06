@@ -5,15 +5,21 @@ var callback = function (error, data) {
   //else console.log(data);
 };
 
-searcher.searchByAddress('phuket', callback);
+searcher.searchByAddress('kyiv, Khreshchatyk', callback);
 
 //searcher.searchByCoordinates('21.234', '13.345', callback);
 //searcher.searchByCoordinates('22.234', '13.345', callback);
 
-setTimeout(function () {
-  //searcher.searchByAddress('kyiv, Khreshchatyk', callback);
-}, 10);
+//setTimeout(function () {
+//  searcher.searchByAddress('kyiv, Khreshchatyk', callback);
+//}, 2000);
+
+//setInterval(function () {
+//  console.log('memory usage: ' + process.memoryUsage().heapUsed);
+//}, 3000);
+
 
 setTimeout(function () {
-  console.log('memory usage: ' + process.memoryUsage().heapUsed);
-}, 5000);
+  console.log('deactivate');
+  searcher.deactivateCacheUpdater();
+}, 10000);

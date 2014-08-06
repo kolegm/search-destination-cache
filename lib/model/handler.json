@@ -2,7 +2,9 @@
   "namespace": "HDL",
   "counter": {
     "field": "counter",
-    "type": "integer"
+    "type": "integer",
+    "start": "0",
+    "step": "1"
   },
   "state": {
     "field": "state",
