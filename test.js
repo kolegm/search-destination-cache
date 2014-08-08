@@ -1,3 +1,5 @@
+var util = require('util');
+
 var searcher = require('./');
 
 var callback = function (error, data) {
@@ -15,5 +17,5 @@ setTimeout(function () {
 }, 2000);
 
 setInterval(function () {
-  console.log('memory usage: ' + process.memoryUsage().heapUsed);
+  console.log('memory usage: ' + util.inspect(process.memoryUsage()));
 }, 3000);
