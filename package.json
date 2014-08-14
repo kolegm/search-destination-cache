@@ -1,6 +1,6 @@
 {
   "name": "search-destination-cache",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Search destinations by name, address, point of interest or coordinates. Using Redis DB for caching.",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
   "dependencies": {
     "hiredis": "^0.1.17",
     "redis": "^0.10.3",
-    "search-destination-async": "^0.0.7",
+    "search-destination-async": "0.0.10",
     "underscore": "^1.6.0"
   },
   "author": {
